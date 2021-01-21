@@ -1,7 +1,7 @@
 """
 Chatbot
-Author: 
-Period/Core: 
+Author: Garrett Tiller
+Period/Core: 5
 
 """
 
@@ -25,7 +25,8 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
-
+  #  
+  
 
 if __name__ == "__main__":
   main()
