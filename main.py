@@ -25,8 +25,13 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
-  #  
   
+  x= str(input("How are you today: "))
+  if x == "good" or "great" or "amazing":
+    print("Thats good to hear!")
+  else: 
+    print("I'm sorry to hear that.")
+
 
 if __name__ == "__main__":
   main()
