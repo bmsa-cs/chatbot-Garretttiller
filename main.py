@@ -27,12 +27,12 @@ def main():
   print("Hello!")
   # This asks a question and stores it as varibles
   x= str(input("How are you today: "))
-  if x == "good" or "great" or "amazing":
+  if x == "good" or x == "great" or x == "amazing":
     print("Thats good to hear!")
   else: 
     print("I'm sorry to hear that.")
   z= str(input("Do you like rollercoasters? "))
-  if z == "yes" or "Yes":
+  if z == "yes" or z =="Yes":
     print("Thats great, me too. Did you know that the fastests rollercoasters around the world can go over 140mph!!")
   else:
     print("Oh...")
@@ -46,18 +46,18 @@ def main():
   elif r==3:
     print("Thats an intresing choice, but thats not my style")
   v= str(input("What is the weather like for you today? "))
-  if v =="gloomy"or"snowy"or"cold"or"sunny"or"cloudy":
+  if v=="gloomy"or v=="snowy" or v== "cold"or v =="sunny"or v=="cloudy":
     print("it's the same here.")
   else:
-    "oooh thats different from where I'm from."
+    print("oooh thats different from where I'm from.")
   b=str(input("Do you have and hobbies?"))
-  if b== "yes" or "Yes":
+  if b== "yes" or b=="Yes":
     print("Thats cool!")
   else:
-    print("your boring...")
+    print("you're boring...")
 
   
-  if __name__ == "__main__":
+if __name__ == "__main__":
   main()
   t = input("Run pytest? (y/n)").lower()
   if t == 'y':
